@@ -1,0 +1,46 @@
+h1{
+    color: black;
+    background-image: url(images/peter.png);
+    text-align: center;
+}
+
+body{
+    background-color: blanchedalmond;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul{
+    display:flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li{
+    border: 1px solid goldenrod;
+    background-color: gold;
+    padding: 0.2em;
+    display: block;
+    color: black;
+}
+
+.navbar a:visited{
+    color: black;
+}
+
+.navbar a:link{
+    text-decoration: none;
+}
+
+.navbar li:hover{
+    opacity: 0.5;
+}
+
+
+.userquote{
+    color:aqua;
+    background-color: blueviolet;
+}
+
+image{
+    border: 2px solid black;
+}
