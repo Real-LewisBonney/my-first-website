@@ -4,13 +4,13 @@
 }
 
 .banner{
+    background-image: url(images/happy-peter.jpg);
+    background-size: contain;
     color: black;
-    background-image: url(images/peter.png);
     text-align: center;
+    font-size:xx-large;
     text-shadow: 2px 2px 2px darkgrey;
-    
-    padding: 0;
-    border: 0;
+    display: block;
     margin: 0;
     
 }
@@ -25,9 +25,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.content-wrapper{
-    text-align: center;
-}
+
 
 h1{
     color: black;
@@ -37,6 +35,12 @@ h1{
 
 image{
     border: 2px solid black;
+}
+
+.content-wrapper{
+    margin: 0 auto;
+    padding: 30;
+    max-width: 900px;
 }
 
 /*navbar*/
@@ -80,6 +84,8 @@ nav ul{
 }
 
 /*family guy*/
+
+
 .family-guy{
     background-image: url(images/family-guy-room.jpg);
     background-repeat: no-repeat;
