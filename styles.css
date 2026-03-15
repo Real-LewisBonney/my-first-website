@@ -1,6 +1,7 @@
 /*global*/
 .header{
     background-color: black;
+    position: relative;
 }
 
 .banner{
@@ -31,6 +32,7 @@ h1{
     color: black;
     text-align: center;
     text-shadow: 2px 2px 2px darkgrey;
+    margin-bottom: 50px;
 }
 
 image{
@@ -42,6 +44,7 @@ image{
     padding: 30;
     max-width: 900px;
 }
+
 
 /*navbar*/
 nav ul{
@@ -56,6 +59,8 @@ nav ul{
     padding: 0.2em;
     display: block;
     color: black;
+    position: sticky;
+    top: 0;
 }
 
 
@@ -71,10 +76,25 @@ nav ul{
     opacity: 0.5;
 }
 
+/*grid*/
+.grid-container{
+    width: 100%;
+    display: grid;
+    grid-template-areas: "sidebar main";
+    grid-template-columns: 200px auto;
+}
+
+.main{
+    grid-area: main;
+    height: 100vw;
+}
+
 /*aside*/
 .sidebar{
     /*slightly lighter background color than the body one*/
+    grid-area: sidebar;
     background-color: rgb(255, 247, 234);
+    height: 100vw;
 }
 
 /*idk what this category is*/
